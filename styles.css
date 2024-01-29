@@ -1,0 +1,70 @@
+.container {
+  width: 1000px;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+h1 {
+  margin: 20px 10px;
+}
+
+.firstel {
+  margin: 10px;
+  flex: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.secondel {
+  flex: 35%;
+}
+.addInfo {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: row;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#player {
+  width: 70%;
+}
+​ .gabsplace {
+  margin-bottom: 30px;
+}
+
+.thirdel {
+  flex: 20%;
+}
+
+.title {
+  color: #ea4b92;
+  font-weight: bolder;
+}
+#place {
+  margin: 10px 0 10px 0;
+}
+
+#place,
+#checkin,
+#checkout {
+  width: 40%;
+}
+
+#guests {
+  background-color: rgba(195, 192, 192, 0.625);
+  border-radius: 10px;
+  width: 7%;
+}
+
+.san-container {
+  display: flex;
+  flex-direction: column;
+}
